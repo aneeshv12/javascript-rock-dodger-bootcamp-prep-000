@@ -87,6 +87,8 @@ function createRock(x) {
        return endGame();
      }else if(top<GAME_HEIGHT){
        window.requestAnimationFrame(moveRock())
+     }else{
+       rock.remove();
      }
 
     /**
