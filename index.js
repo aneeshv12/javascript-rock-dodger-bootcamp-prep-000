@@ -144,6 +144,8 @@ function moveDodger(e) {
      e.preventDefault();
      e.stopPropagation();
      moveDodgerRight();
+   }else{
+     return;
    }
 }
 
